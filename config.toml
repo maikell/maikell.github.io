@@ -1,5 +1,9 @@
-baseURL = "https://maikell.github.io"
+baseURL = "https://playground.l882.nl"
 languageCode = "en-us"
-title = "Playground of Maikel"
-theme = "hello-friend-ng"
+title = "Geeks and Freaks"
+theme = "hyde"
 publishDir = "docs"
+
+[params]
+  themeColor = "theme-base-0d"
+  description = "Same random notes and ramblings by Maikel"
