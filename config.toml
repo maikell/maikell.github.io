@@ -1,4 +1,4 @@
-baseURL = "https://playground.l882.nl"
+baseURL = "https://playground.l882.nl/"
 languageCode = "en-us"
 title = "Geeks and Freaks"
 theme = "hyde"
