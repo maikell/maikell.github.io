@@ -1,0 +1,5 @@
+baseURL = "https://maikell.github.io"
+languageCode = "en-us"
+title = "Hugo Site"
+theme = "hyde"
+publishDir = "docs"
