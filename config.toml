@@ -1,9 +1,23 @@
 baseURL = "https://playground.l882.nl/"
 languageCode = "en-us"
-title = "Geeks and Freaks"
+title = "Random notes by Maikel"
 theme = "hyde"
 publishDir = "docs"
-
 [params]
-  themeColor = "theme-base-0d"
-  description = "Same random notes and ramblings by Maikel"
+  description = "Same random notes"
+
+[[menu.main]]
+    name = "CLI and configuration pastes"
+    url = "/cli/"
+    weight = 1
+
+[[menu.main]]
+    name = "Hugo"
+    url = "/hugo/"
+    weight = 2 
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+

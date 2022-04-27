@@ -6,5 +6,23 @@
     <description>Recent content on Geeks and Freaks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://playground.l882.nl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page</title>
+      <link>https://playground.l882.nl/page/</link>
+      <pubDate>Tue, 26 Apr 2022 08:11:39 +0200</pubDate>
+      
+      <guid>https://playground.l882.nl/page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://playground.l882.nl/post/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playground.l882.nl/post/test/</guid>
+      <description>safdafsd fs</description>
+    </item>
+    
   </channel>
 </rss>

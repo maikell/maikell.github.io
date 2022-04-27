@@ -3,11 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://playground.l882.nl/page/</loc>
+    <lastmod>2022-04-26T08:11:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://playground.l882.nl/post/test/</loc>
+  </url>
+  
+  <url>
     <loc>https://playground.l882.nl/categories/</loc>
   </url>
   
   <url>
     <loc>https://playground.l882.nl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://playground.l882.nl/post/</loc>
   </url>
   
   <url>
