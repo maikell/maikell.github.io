@@ -3,41 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://playground.l882.nl/cli/nginx-password-backend/</loc>
+    <loc>https://notes.l882.nl/cli/nginx-password-backend/</loc>
     <lastmod>2022-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://playground.l882.nl/about/</loc>
+    <loc>https://notes.l882.nl/about/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://playground.l882.nl/cli/</loc>
+    <loc>https://notes.l882.nl/cli/</loc>
     <lastmod>2022-04-27T16:35:53+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://playground.l882.nl/cli/docker/</loc>
+    <loc>https://notes.l882.nl/cli/docker/</loc>
     <lastmod>2022-04-27T16:35:53+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://playground.l882.nl/</loc>
+    <loc>https://notes.l882.nl/</loc>
     <lastmod>2022-04-26T09:10:26+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://playground.l882.nl/hugo/</loc>
+    <loc>https://notes.l882.nl/hugo/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://playground.l882.nl/categories/</loc>
+    <loc>https://notes.l882.nl/categories/</loc>
   </url>
   
   <url>
-    <loc>https://playground.l882.nl/tags/</loc>
+    <loc>https://notes.l882.nl/tags/</loc>
   </url>
   
 </urlset>
