@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on my public note page on Random notes by Maikel</title>
+    <link>https://playground.l882.nl/</link>
+    <description>Recent content in Welcome on my public note page on Random notes by Maikel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Apr 2022 09:10:26 +0200</lastBuildDate><atom:link href="https://playground.l882.nl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx backend password protected</title>
+      <link>https://playground.l882.nl/cli/nginx-password-backend/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://playground.l882.nl/cli/nginx-password-backend/</guid>
+      <description>Nginx backend password protected Nginx as a proxy allow to access backend (Apache) content which is password protected
+Nginx server configuration
+proxy_set_header Authorization $http_authorization; source  https://serverfault.com/questions/390157/nginx-as-a-proxy-doesnt-allow-to-access-backend-apache-content-which-is-passw https://stackoverflow.com/a/65308098  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://playground.l882.nl/about/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://playground.l882.nl/about/</guid>
+      <description>A dump for random notes on technical matters from Maikel van Leeuwen </description>
+    </item>
+    
+    <item>
+      <title>Docker cheat sheet</title>
+      <link>https://playground.l882.nl/cli/docker/</link>
+      <pubDate>Wed, 27 Apr 2022 16:35:53 +0200</pubDate>
+      
+      <guid>https://playground.l882.nl/cli/docker/</guid>
+      <description>Docker Cheat sheet stop all containers docker stop all containers # docker stop $(docker ps -aq) </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://playground.l882.nl/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playground.l882.nl/hugo/</guid>
+      <description>Hugo Theme https://themes.gohugo.io/themes/hyde/
+Hugo Documentation https://gohugo.io/documentation/
+Change Hugo main page from posts to a static main page https://timhilliard.com/blog/static-home-page-in-hugo/</description>
+    </item>
+    
+  </channel>
+</rss>

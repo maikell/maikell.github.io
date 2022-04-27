@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nginx backend password protected &middot; Random notes by Maikel</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://playground.l882.nl/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://playground.l882.nl/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://playground.l882.nl/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://playground.l882.nl/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://playground.l882.nl/"><h1>Random notes by Maikel</h1></a>
+      <p class="lead">
+       Same random notes 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://playground.l882.nl/">Home</a> </li>
+        <li><a href="/cli/"> CLI and configuration pastes </a></li><li><a href="/hugo/"> Hugo </a></li><li><a href="/about/"> About </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2022. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Nginx backend password protected</h1>
+  <time datetime=2022-04-27T00:00:00Z class="post-date">Wed, Apr 27, 2022</time>
+  <h3 id="nginx-backend-password-protected">Nginx backend password protected</h3>
+<p>Nginx as a proxy allow to access backend (Apache) content which is password protected</p>
+<p><strong>Nginx server configuration</strong></p>
+<pre><code>proxy_set_header Authorization $http_authorization;
+</code></pre><h5 id="source">source</h5>
+<ul>
+<li><a href="https://serverfault.com/questions/390157/nginx-as-a-proxy-doesnt-allow-to-access-backend-apache-content-which-is-passw">https://serverfault.com/questions/390157/nginx-as-a-proxy-doesnt-allow-to-access-backend-apache-content-which-is-passw</a></li>
+<li><a href="https://stackoverflow.com/a/65308098">https://stackoverflow.com/a/65308098</a></li>
+</ul>
+
+</div>
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>
