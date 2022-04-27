@@ -1,4 +1,4 @@
-baseURL = "https://playground.l882.nl/"
+baseURL = "https://notes.l882.nl/"
 languageCode = "en-us"
 title = "Random notes by Maikel"
 theme = "hyde"
