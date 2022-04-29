@@ -18,9 +18,9 @@ ffmpeg  -i S_video.mp4 -ss 01:15:25  -to 01:16:35 cut.mp4
 1. Create a file with full or relative path
 ```
 file '/home/maikel/Downloads/1.mp4'
+file '/home/maikel/Downloads/2.mp4'
 file '/home/maikel/Downloads/3.mp4'
-file '/home/maikel/Downloads/0.mp4'
-file '/home/maikel/Downloads/1.mp4'
+file '/home/maikel/Downloads/4.mp4'
 ```
 
 2. Concatenate 
