@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Clis &middot; Random notes by Maikel</title>
+  <title>Sort and grep fu &middot; Random notes by Maikel</title>
   <meta name="description" content="" />
 
   
@@ -24,7 +24,6 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="https://notes.l882.nl/cli/index.xml" rel="alternate" type="application/rss+xml" title="Random notes by Maikel" />
   
 </head>
 
@@ -50,17 +49,19 @@
 </aside>
 
     <main class="content container">
-    <ul class="posts">
-<li>
-    <span><a href="https://notes.l882.nl/cli/sort-grep-fu/">Sort and grep fu</a> <time class="pull-right post-list" datetime="2022-05-10T00:00:00Z">Tue, May 10, 2022</time></span>
-  </li><li>
-    <span><a href="https://notes.l882.nl/cli/ffmpeg/">ffmpeg cheat cheet</a> <time class="pull-right post-list" datetime="2022-04-28T00:00:00Z">Thu, Apr 28, 2022</time></span>
-  </li><li>
-    <span><a href="https://notes.l882.nl/cli/nginx-password-backend/">Nginx backend password protected</a> <time class="pull-right post-list" datetime="2022-04-27T00:00:00Z">Wed, Apr 27, 2022</time></span>
-  </li><li>
-    <span><a href="https://notes.l882.nl/cli/docker/">Docker cheat sheet</a> <time class="pull-right post-list" datetime="2022-04-27T16:35:53&#43;0200">Wed, Apr 27, 2022</time></span>
-  </li>
-</ul>
+    <div class="post">
+  <h1>Sort and grep fu</h1>
+  <time datetime=2022-05-10T00:00:00Z class="post-date">Tue, May 10, 2022</time>
+  <h1 id="sort-and-grep-fu">Sort and grep fu</h1>
+<h2 id="get-from-line-a-to-line-b-in-a-large-file">Get from line $A to line $B in a large file</h2>
+<pre><code>awk 'NR &gt;= 2459499 &amp;&amp; NR &lt;= 2462053' FILE &gt;FILE_CUT
+</code></pre><blockquote>
+<p>= is from line and &lt;= to line. File is the source file and FILE_CUT is the selected lines.</p>
+</blockquote>
+
+</div>
+
+
     </main>
 
     
