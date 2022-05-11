@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Clis &middot; Random notes by Maikel</title>
+  <title>journalctl cheat cheet &middot; Random notes by Maikel</title>
   <meta name="description" content="" />
 
   
@@ -24,7 +24,6 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="https://notes.l882.nl/cli/index.xml" rel="alternate" type="application/rss+xml" title="Random notes by Maikel" />
   
 </head>
 
@@ -50,19 +49,33 @@
 </aside>
 
     <main class="content container">
-    <ul class="posts">
-<li>
-    <span><a href="https://notes.l882.nl/cli/journalctl/">journalctl cheat cheet</a> <time class="pull-right post-list" datetime="2022-05-11T00:00:00Z">Wed, May 11, 2022</time></span>
-  </li><li>
-    <span><a href="https://notes.l882.nl/cli/sort-grep-fu/">Sort and grep fu</a> <time class="pull-right post-list" datetime="2022-05-10T00:00:00Z">Tue, May 10, 2022</time></span>
-  </li><li>
-    <span><a href="https://notes.l882.nl/cli/ffmpeg/">ffmpeg cheat cheet</a> <time class="pull-right post-list" datetime="2022-04-28T00:00:00Z">Thu, Apr 28, 2022</time></span>
-  </li><li>
-    <span><a href="https://notes.l882.nl/cli/nginx-password-backend/">Nginx backend password protected</a> <time class="pull-right post-list" datetime="2022-04-27T00:00:00Z">Wed, Apr 27, 2022</time></span>
-  </li><li>
-    <span><a href="https://notes.l882.nl/cli/docker/">Docker cheat sheet</a> <time class="pull-right post-list" datetime="2022-04-27T16:35:53&#43;0200">Wed, Apr 27, 2022</time></span>
-  </li>
-</ul>
+    <div class="post">
+  <h1>journalctl cheat cheet</h1>
+  <time datetime=2022-05-11T00:00:00Z class="post-date">Wed, May 11, 2022</time>
+  <h1 id="journalctl-cheatsheet">Journalctl cheatsheet</h1>
+<p>You got to love systemD</p>
+<h4 id="see-all">See all</h4>
+<pre><code>journalctl
+</code></pre><h4 id="follow-stream-of-logs">Follow stream of logs</h4>
+<pre><code>journalctl -f
+</code></pre><h3 id="read-boot-messages">Read boot messages</h3>
+<pre><code>journalctl -b 
+</code></pre><h3 id="show-reboots">Show reboots</h3>
+<pre><code>journalctl --list-boots
+</code></pre><h3 id="timerange-of-log">Timerange of log</h3>
+<pre><code>journalctl --since &quot;1 hour ago&quot;
+</code></pre><p>or</p>
+<pre><code>journalctl --since &quot;2 days ago&quot;
+</code></pre><p>or between</p>
+<pre><code>journalctl --since &quot;2022-01-01 00:15:00&quot; --until &quot;2022-01-01 12:00:00&quot;
+</code></pre><h3 id="show-log-of-unit-file">Show log of unit file</h3>
+<pre><code>journalctl -u gitlab-runner 
+</code></pre><h3 id="tail-log-of-unit-file">Tail log of unit file</h3>
+<pre><code>journalctl -u gitlabrunner -f
+</code></pre>
+</div>
+
+
     </main>
 
     

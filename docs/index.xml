@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Apr 2022 09:10:26 +0200</lastBuildDate><atom:link href="https://notes.l882.nl/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>journalctl cheat cheet</title>
+      <link>https://notes.l882.nl/cli/journalctl/</link>
+      <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.l882.nl/cli/journalctl/</guid>
+      <description>Journalctl cheatsheet You got to love systemD
+See all journalctl Follow stream of logs journalctl -f Read boot messages journalctl -b Show reboots journalctl --list-boots Timerange of log journalctl --since &amp;quot;1 hour ago&amp;quot; or
+journalctl --since &amp;quot;2 days ago&amp;quot; or between
+journalctl --since &amp;quot;2022-01-01 00:15:00&amp;quot; --until &amp;quot;2022-01-01 12:00:00&amp;quot; Show log of unit file journalctl -u gitlab-runner Tail log of unit file journalctl -u gitlabrunner -f </description>
+    </item>
+    
+    <item>
       <title>Sort and grep fu</title>
       <link>https://notes.l882.nl/cli/sort-grep-fu/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
