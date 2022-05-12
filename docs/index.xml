@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Apr 2022 09:10:26 +0200</lastBuildDate><atom:link href="https://notes.l882.nl/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Haproxy cheat sheet</title>
+      <link>https://notes.l882.nl/cli/haproxy/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.l882.nl/cli/haproxy/</guid>
+      <description>Check syntax haproxy -f /etc/haproxy/haproxy.cfg -c ip acl on backend backend wordpress http-request deny if ! { src,map_ip(/etc/haproxy/list.lst) -m found } server wordpress 172.5.0.1:8080 check ip acl with path on backend backend wordpress http-request deny if { path -i -m beg /wp-admin/ } ! { src,map_ip(/etc/haproxy/list.lst) -m found } server wordpress 172.5.0.1:8080 check Correct order of TLS pem file  Intermediate domain cert domain key  </description>
+    </item>
+    
+    <item>
       <title>Journalctl cheat cheet</title>
       <link>https://notes.l882.nl/cli/journalctl/</link>
       <pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate>
