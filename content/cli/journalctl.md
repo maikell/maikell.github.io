@@ -1,11 +1,10 @@
 ---
-title: "journalctl cheat cheet"
+title: "Journalctl cheat cheet"
 date: 2022-05-11
 menu: "CLI"
 weight: 1 
 
 ---
-# Journalctl cheatsheet
 You got to love systemD
 
 #### See all
