@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://notes.l882.nl/hugo/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://notes.l882.nl/cli/</loc>
     <lastmod>2022-05-11T00:00:00+00:00</lastmod>
   </url>
@@ -40,11 +45,6 @@
   <url>
     <loc>https://notes.l882.nl/</loc>
     <lastmod>2022-04-26T09:10:26+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://notes.l882.nl/hugo/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

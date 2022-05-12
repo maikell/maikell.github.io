@@ -1,3 +1,9 @@
+---
+title: "Hugo"
+date: 2022-04-01
+menu: "Hugo"
+weight: 2 
+---
 
 #### Hugo Theme
 https://themes.gohugo.io/themes/hyde/
