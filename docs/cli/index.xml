@@ -6,7 +6,16 @@
     <description>Recent content in Clis on Random notes by Maikel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.l882.nl/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.l882.nl/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generic shell command fu</title>
+      <link>https://notes.l882.nl/cli/generic-shellcommands/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.l882.nl/cli/generic-shellcommands/</guid>
+      <description>Make a file inmutable sudo chattr +i $file Undo inmutable stae sudo chattr -i $file umount lazy and all cifs mountpoints sudo umount -l -a -t cifs </description>
+    </item>
+    
     <item>
       <title>Haproxy cheat sheet</title>
       <link>https://notes.l882.nl/cli/haproxy/</link>
