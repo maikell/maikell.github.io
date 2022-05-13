@@ -13,7 +13,7 @@
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://notes.l882.nl/cli/generic-shellcommands/</guid>
-      <description>Make a file inmutable sudo chattr +i $file Undo inmutable state sudo chattr -i $file umount lazy and all cif mountpoints sudo umount -l -a -t cifs </description>
+      <description>Make a file inmutable sudo chattr +i $file Undo inmutable state sudo chattr -i $file umount lazy and all cif mountpoints sudo umount -l -a -t cifs Find files and change all permissions find . -type f -exec chmod 664 {} \; Find directories and change all permissions find . -type d -exec chmod 755 {} \; Find and remove files older than In this example older than 5 day&amp;rsquo;s</description>
     </item>
     
     <item>

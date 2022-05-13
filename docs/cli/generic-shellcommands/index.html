@@ -58,6 +58,13 @@
 <pre><code>sudo chattr -i $file
 </code></pre><h3 id="umount-lazy-and-all-cif-mountpoints">umount lazy and all cif mountpoints</h3>
 <pre><code>sudo umount -l -a -t cifs
+</code></pre><h3 id="find-files-and-change-all-permissions">Find files and change all permissions</h3>
+<pre><code>find . -type f -exec chmod 664 {} \;
+</code></pre><h3 id="find-directories-and-change-all-permissions">Find directories and change all permissions</h3>
+<pre><code>find . -type d -exec chmod 755 {} \;
+</code></pre><h3 id="find-and-remove-files-older-than">Find and remove files older than</h3>
+<p>In this example older than 5 day&rsquo;s</p>
+<pre><code>find . -mtime +5 -exec echo {} ; 
 </code></pre>
 </div>
 
