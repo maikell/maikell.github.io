@@ -13,7 +13,7 @@
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://notes.l882.nl/cli/generic-shellcommands/</guid>
-      <description>Make a file inmutable sudo chattr +i $file Undo inmutable stae sudo chattr -i $file umount lazy and all cifs mountpoints sudo umount -l -a -t cifs </description>
+      <description>Make a file inmutable sudo chattr +i $file Undo inmutable state sudo chattr -i $file umount lazy and all cif mountpoints sudo umount -l -a -t cifs </description>
     </item>
     
     <item>

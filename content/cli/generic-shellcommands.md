@@ -10,12 +10,12 @@ weight: 1
 sudo chattr +i $file
 ```
 
-### Undo inmutable stae
+### Undo inmutable state
 ```
 sudo chattr -i $file
 ```
 
-### umount lazy and all cifs mountpoints
+### umount lazy and all cif mountpoints
 ```
 sudo umount -l -a -t cifs
 ```
