@@ -7,17 +7,22 @@ publishDir = "docs"
   description = "Same random notes"
 
 [[menu.main]]
-    name = "CLI and configuration pastes"
+    name = "CLI notes and fu"
     url = "/cli/"
     weight = 1
 
 [[menu.main]]
+    name = "Configuration"
+    url = "/configuration/"
+    weight = 2
+
+[[menu.main]]
     name = "Hugo"
     url = "/hugo/"
-    weight = 2 
+    weight = 3
 [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 4
 
 

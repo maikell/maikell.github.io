@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Hugo &middot; Random notes by Maikel</title>
+  <title>vimrc configuration &middot; Random notes by Maikel</title>
   <meta name="description" content="" />
 
   
@@ -50,15 +50,57 @@
 
     <main class="content container">
     <div class="post">
-  <h1>Hugo</h1>
-  <time datetime=2022-04-01T00:00:00Z class="post-date">Fri, Apr 1, 2022</time>
-  <h4 id="hugo-theme">Hugo Theme</h4>
-<p><a href="https://themes.gohugo.io/themes/hyde/">https://themes.gohugo.io/themes/hyde/</a></p>
-<h4 id="hugo-documentation">Hugo Documentation</h4>
-<p><a href="https://gohugo.io/documentation/">https://gohugo.io/documentation/</a></p>
-<h4 id="change-hugo-main-page-from-posts-to-a-static-main-page">Change Hugo main page from posts to a static main page</h4>
-<p><a href="https://timhilliard.com/blog/static-home-page-in-hugo/">https://timhilliard.com/blog/static-home-page-in-hugo/</a></p>
+  <h1>vimrc configuration</h1>
+  <time datetime=2022-05-14T00:00:00Z class="post-date">Sat, May 14, 2022</time>
+  <p>Place this file globally in /etc/vim/vimrc or ~/.vimrc</p>
+<pre><code>&quot;Use vim settings, rather then vi settings
+set nocompatible
 
+&quot;Syntax highlighting
+syntax on
+
+&quot;Disable mouse settings for Vim and leave this to the terminal gui
+set mouse=
+set ttymouse=
+
+&quot;Show on the left the line number
+set number
+
+&quot;Show the line and column number of the cursor position&quot;
+set ruler
+
+&quot;Highlight currentline
+set cursorline
+
+&quot;A tab is four spaces
+set tabstop=2
+&quot;A tab is four spaces
+set softtabstop=2
+
+&quot;Always show the statusbar
+set laststatus=2
+
+&quot;Show a redline at charater position 81
+set cc=81
+
+&quot;Highlight search terms
+set hlsearch
+
+&quot;Show search matches as you type
+set incsearch
+
+&quot;Do not show hidden characters
+set nolist
+
+&quot;Bonus, uncomment this feature!
+&quot;Create backup files in ~/tmp. Directory needs to exist
+
+&quot;set backup
+&quot;let bac_var = strftime(&quot;.%y-%m-%d-%H-%M&quot;)
+&quot;set backupdir=~/tmp/
+&quot;let bac_var = &quot;set backupext=&quot; . bac_var
+&quot;execute bac_var
+</code></pre>
 </div>
 
 

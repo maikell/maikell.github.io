@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configurations on Random notes by Maikel</title>
+    <link>https://notes.l882.nl/configuration/</link>
+    <description>Recent content in Configurations on Random notes by Maikel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.l882.nl/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tmux configuration</title>
+      <link>https://notes.l882.nl/configuration/tmux/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.l882.nl/configuration/tmux/</guid>
+      <description>Set keyboard shortcut (ctr+a) to screens and colorize. Place this tmux.conf in /etc or as .tmux.conf file in your home directory (~).
+unbind C-b set -g prefix C-a # Set status bar set -g status-bg black set -g status-fg white set -g status-left ‘#[fg=green]#H’ </description>
+    </item>
+    
+    <item>
+      <title>vimrc configuration</title>
+      <link>https://notes.l882.nl/configuration/vimrc/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.l882.nl/configuration/vimrc/</guid>
+      <description>Place this file globally in /etc/vim/vimrc or ~/.vimrc
+&amp;quot;Use vim settings, rather then vi settings set nocompatible &amp;quot;Syntax highlighting syntax on &amp;quot;Disable mouse settings for Vim and leave this to the terminal gui set mouse= set ttymouse= &amp;quot;Show on the left the line number set number &amp;quot;Show the line and column number of the cursor position&amp;quot; set ruler &amp;quot;Highlight currentline set cursorline &amp;quot;A tab is four spaces set tabstop=2 &amp;quot;A tab is four spaces set softtabstop=2 &amp;quot;Always show the statusbar set laststatus=2 &amp;quot;Show a redline at charater position 81 set cc=81 &amp;quot;Highlight search terms set hlsearch &amp;quot;Show search matches as you type set incsearch &amp;quot;Do not show hidden characters set nolist &amp;quot;Bonus, uncomment this feature!</description>
+    </item>
+    
+  </channel>
+</rss>

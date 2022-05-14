@@ -2,7 +2,7 @@
 title: "Haproxy cheat sheet"
 date: 2022-05-12
 menu: "CLI"
-weight: 1 
+weight: 1
 ---
 
 #### Check syntax 

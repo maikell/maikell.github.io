@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://notes.l882.nl/configuration/tmux/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.l882.nl/configuration/vimrc/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://notes.l882.nl/cli/generic-shellcommands/</loc>
     <lastmod>2022-05-13T00:00:00+00:00</lastmod>
   </url>
@@ -40,6 +50,11 @@
   <url>
     <loc>https://notes.l882.nl/hugo/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes.l882.nl/configuration/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
