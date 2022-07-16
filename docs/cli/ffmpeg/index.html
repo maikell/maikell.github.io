@@ -51,10 +51,10 @@
     <main class="content container">
     <div class="post">
   <h1>ffmpeg cheat cheet</h1>
-  <time datetime=2022-04-28T00:00:00Z class="post-date">Thu, Apr 28, 2022</time>
+  <time datetime=2022-07-16T00:00:00Z class="post-date">Sat, Jul 16, 2022</time>
   <h1 id="ffmpeg-cheat-cheet">ffmpeg cheat cheet</h1>
 <h2 id="cut-a-piece-of-video-from-position-to-position">Cut a piece of video from position to position</h2>
-<pre><code>ffmpeg  -i S_video.mp4 -ss 01:15:25  -to 01:16:35 cut.mp4
+<pre><code>ffmpeg -i S_video.mp4 -ss 01:15:25 -to 01:16:35 cut.mp4
 
 
 </code></pre><h2 id="concatenate-multiable-files">Concatenate multiable files</h2>
@@ -69,6 +69,11 @@ file '/home/maikel/Downloads/4.mp4'
 <li>Concatenate</li>
 </ol>
 <pre><code>ffmpeg -f concat -safe 0 -i list.txt -c copy concat.avi
+</code></pre><ol start="3">
+<li>Rotate video without converting with ffmpeg or mplayer</li>
+</ol>
+<pre><code>ffplay -vf &quot;hflip,vflip&quot; -i input.mp4
+mplayer -vf flip,mirror -i input.mp4
 </code></pre>
 </div>
 

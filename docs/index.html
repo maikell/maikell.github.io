@@ -50,13 +50,108 @@
 </aside>
 
     <main class="content container">
-    <div class="post">
-  <h1>Welcome on my public note page</h1>
-  <time datetime=2022-04-26T09:10:26&#43;0200 class="post-date">Tue, Apr 26, 2022</time>
+    <div class="posts">
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/cli/ffmpeg/">ffmpeg cheat cheet</a>
+  </h1>
+  <time datetime="2022-07-16T00:00:00Z" class="post-date">Sat, Jul 16, 2022</time>
+  ffmpeg cheat cheet Cut a piece of video from position to position ffmpeg -i S_video.mp4 -ss 01:15:25 -to 01:16:35 cut.mp4 Concatenate multiable files  Create a file with full or relative path  file '/home/maikel/Downloads/1.mp4' file '/home/maikel/Downloads/2.mp4' file '/home/maikel/Downloads/3.mp4' file '/home/maikel/Downloads/4.mp4' Concatenate  ffmpeg -f concat -safe 0 -i list.txt -c copy concat.avi Rotate video without converting with ffmpeg or mplayer  ffplay -vf &quot;hflip,vflip&quot; -i input.mp4 mplayer -vf flip,mirror -i input.
   
+  <div class="read-more-link">
+    <a href="/cli/ffmpeg/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/configuration/tmux/">tmux configuration</a>
+  </h1>
+  <time datetime="2022-05-14T00:00:00Z" class="post-date">Sat, May 14, 2022</time>
+  Set keyboard shortcut (ctr+a) to screens and colorize. Place this tmux.conf in /etc or as .tmux.conf file in your home directory (~).
+unbind C-b set -g prefix C-a # Set status bar set -g status-bg black set -g status-fg white set -g status-left ‘#[fg=green]#H’ 
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/configuration/vimrc/">vimrc configuration</a>
+  </h1>
+  <time datetime="2022-05-14T00:00:00Z" class="post-date">Sat, May 14, 2022</time>
+  Place this file globally in /etc/vim/vimrc or ~/.vimrc
+&quot;Use vim settings, rather then vi settings set nocompatible &quot;Syntax highlighting syntax on &quot;Disable mouse settings for Vim and leave this to the terminal gui set mouse= set ttymouse= &quot;Show on the left the line number set number &quot;Show the line and column number of the cursor position&quot; set ruler &quot;Highlight currentline set cursorline &quot;A tab is four spaces set tabstop=2 &quot;A tab is four spaces set softtabstop=2 &quot;Always show the statusbar set laststatus=2 &quot;Show a redline at charater position 81 set cc=81 &quot;Highlight search terms set hlsearch &quot;Show search matches as you type set incsearch &quot;Do not show hidden characters set nolist &quot;Bonus, uncomment this feature!
+  
+  <div class="read-more-link">
+    <a href="/configuration/vimrc/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/cli/generic-shellcommands/">Generic shell command fu</a>
+  </h1>
+  <time datetime="2022-05-13T00:00:00Z" class="post-date">Fri, May 13, 2022</time>
+  Make a file inmutable sudo chattr +i $file Undo inmutable state sudo chattr -i $file umount lazy and all cif mountpoints sudo umount -l -a -t cifs Find files and change all permissions find . -type f -exec chmod 664 {} \; Find directories and change all permissions find . -type d -exec chmod 755 {} \; Find and remove files older than In this example older than 5 day&rsquo;s
+  
+  <div class="read-more-link">
+    <a href="/cli/generic-shellcommands/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/cli/haproxy/">Haproxy cheat sheet</a>
+  </h1>
+  <time datetime="2022-05-12T00:00:00Z" class="post-date">Thu, May 12, 2022</time>
+  Check syntax haproxy -f /etc/haproxy/haproxy.cfg -c ip acl on backend backend wordpress http-request deny if ! { src,map_ip(/etc/haproxy/list.lst) -m found } server wordpress 172.5.0.1:8080 check ip acl with path on backend backend wordpress http-request deny if { path -i -m beg /wp-admin/ } ! { src,map_ip(/etc/haproxy/list.lst) -m found } server wordpress 172.5.0.1:8080 check Correct order of TLS pem file  Intermediate domain cert domain key  
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/cli/journalctl/">Journalctl cheat cheet</a>
+  </h1>
+  <time datetime="2022-05-11T00:00:00Z" class="post-date">Wed, May 11, 2022</time>
+  You got to love systemD
+See all journalctl Follow stream of logs journalctl -f Read boot messages journalctl -b Show reboots journalctl --list-boots Timerange of log journalctl --since &quot;1 hour ago&quot; or
+journalctl --since &quot;2 days ago&quot; or between
+journalctl --since &quot;2022-01-01 00:15:00&quot; --until &quot;2022-01-01 12:00:00&quot; Show log of unit file journalctl -u gitlab-runner Tail log of unit file journalctl -u gitlabrunner -f 
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/cli/sort-grep-fu/">Sort and grep fu</a>
+  </h1>
+  <time datetime="2022-05-10T00:00:00Z" class="post-date">Tue, May 10, 2022</time>
+  Sort and grep fu Get from line $A to line $B in a large file awk 'NR &gt;= 2459499 &amp;&amp; NR &lt;= 2462053' FILE &gt;FILE_CUT  = is from line and &lt;= to line. File is the source file and FILE_CUT is the selected lines.
+ 
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/cli/nginx-password-backend/">Nginx backend password protected</a>
+  </h1>
+  <time datetime="2022-04-27T00:00:00Z" class="post-date">Wed, Apr 27, 2022</time>
+  Nginx backend password protected Nginx as a proxy allow to access backend (Apache) content which is password protected
+Nginx server configuration
+proxy_set_header Authorization $http_authorization; source  https://serverfault.com/questions/390157/nginx-as-a-proxy-doesnt-allow-to-access-backend-apache-content-which-is-passw https://stackoverflow.com/a/65308098  
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/about/">About</a>
+  </h1>
+  <time datetime="2022-04-01T00:00:00Z" class="post-date">Fri, Apr 1, 2022</time>
+  A dump for random notes on technical matters from Maikel van Leeuwen
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/hugo/">Hugo</a>
+  </h1>
+  <time datetime="2022-04-01T00:00:00Z" class="post-date">Fri, Apr 1, 2022</time>
+  Hugo Theme https://themes.gohugo.io/themes/hyde/
+Hugo Documentation https://gohugo.io/documentation/
+Change Hugo main page from posts to a static main page https://timhilliard.com/blog/static-home-page-in-hugo/
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://notes.l882.nl/cli/docker/">Docker cheat sheet</a>
+  </h1>
+  <time datetime="2022-04-27T16:35:53&#43;0200" class="post-date">Wed, Apr 27, 2022</time>
+  Docker Cheat sheet stop all containers docker stop all containers # docker stop $(docker ps -aq) Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes. docker system prune -f -f = Do not prompt for confirmation
+  
+</article>
 </div>
-
-
     </main>
 
     

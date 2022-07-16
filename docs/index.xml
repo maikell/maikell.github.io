@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Apr 2022 09:10:26 +0200</lastBuildDate><atom:link href="https://notes.l882.nl/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ffmpeg cheat cheet</title>
+      <link>https://notes.l882.nl/cli/ffmpeg/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.l882.nl/cli/ffmpeg/</guid>
+      <description>ffmpeg cheat cheet Cut a piece of video from position to position ffmpeg -i S_video.mp4 -ss 01:15:25 -to 01:16:35 cut.mp4 Concatenate multiable files  Create a file with full or relative path  file &#39;/home/maikel/Downloads/1.mp4&#39; file &#39;/home/maikel/Downloads/2.mp4&#39; file &#39;/home/maikel/Downloads/3.mp4&#39; file &#39;/home/maikel/Downloads/4.mp4&#39; Concatenate  ffmpeg -f concat -safe 0 -i list.txt -c copy concat.avi Rotate video without converting with ffmpeg or mplayer  ffplay -vf &amp;quot;hflip,vflip&amp;quot; -i input.mp4 mplayer -vf flip,mirror -i input.</description>
+    </item>
+    
+    <item>
       <title>tmux configuration</title>
       <link>https://notes.l882.nl/configuration/tmux/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
@@ -65,15 +74,6 @@ journalctl --since &amp;quot;2022-01-01 00:15:00&amp;quot; --until &amp;quot;202
       <guid>https://notes.l882.nl/cli/sort-grep-fu/</guid>
       <description>Sort and grep fu Get from line $A to line $B in a large file awk &#39;NR &amp;gt;= 2459499 &amp;amp;&amp;amp; NR &amp;lt;= 2462053&#39; FILE &amp;gt;FILE_CUT  = is from line and &amp;lt;= to line. File is the source file and FILE_CUT is the selected lines.
  </description>
-    </item>
-    
-    <item>
-      <title>ffmpeg cheat cheet</title>
-      <link>https://notes.l882.nl/cli/ffmpeg/</link>
-      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://notes.l882.nl/cli/ffmpeg/</guid>
-      <description>ffmpeg cheat cheet Cut a piece of video from position to position ffmpeg -i S_video.mp4 -ss 01:15:25 -to 01:16:35 cut.mp4 Concatenate multiable files  Create a file with full or relative path  file &#39;/home/maikel/Downloads/1.mp4&#39; file &#39;/home/maikel/Downloads/2.mp4&#39; file &#39;/home/maikel/Downloads/3.mp4&#39; file &#39;/home/maikel/Downloads/4.mp4&#39; Concatenate  ffmpeg -f concat -safe 0 -i list.txt -c copy concat.avi </description>
     </item>
     
     <item>

@@ -1,6 +1,6 @@
 ---
 title: "ffmpeg cheat cheet"
-date: 2022-04-28
+date: 2022-07-16
 menu: "CLI"
 weight: 1 
 
@@ -9,7 +9,7 @@ weight: 1
 
 ## Cut a piece of video from position to position
 ```
-ffmpeg  -i S_video.mp4 -ss 01:15:25  -to 01:16:35 cut.mp4
+ffmpeg -i S_video.mp4 -ss 01:15:25 -to 01:16:35 cut.mp4
 
 
 ```
@@ -27,3 +27,11 @@ file '/home/maikel/Downloads/4.mp4'
 ```
 ffmpeg -f concat -safe 0 -i list.txt -c copy concat.avi
 ```
+
+3. Rotate video without converting with ffmpeg or mplayer
+```
+ffplay -vf "hflip,vflip" -i input.mp4
+mplayer -vf flip,mirror -i input.mp4
+```
+
+
